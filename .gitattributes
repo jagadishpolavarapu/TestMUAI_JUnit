@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Exclude generated reports and artifacts from language statistics
+artifacts/* linguist-generated
+*.html linguist-documentation
+
+# Mark Java as the primary language
+*.java linguist-language=Java
